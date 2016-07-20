@@ -1,21 +1,29 @@
 {
     "common": {
         "name":                     "knx",
-        "version": "0.0.1",
+        "version": "0.6.0",
+		"news": {
+			"0.6.0": {
+				"en":               "redesign",
+				"de":               "redesign",
+				"ru":               "redesign"
+			}
+        },
         "title":                    "KNX Adapter",
         "desc":                     {
  			             "en": "ioBroker knx Adapter",
  			             "de": "ioBroker knx Adapter",
  			             "ru": "ioBroker knx драйвер как образец"
-	},
+		},
+		"license":                  "CC BY-NC",
         "platform":                 "Javascript/Node.js",
         "mode":                     "daemon",
         "icon":                     "knx.png",
         "enabled":                  true,
-	"extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.knx/master/admin/knx.png",
-	"keywords":                 ["knx", "vis", "GUI", "graphical", "scada"],
+		"extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.knx/master/admin/knx.png",
+		"keywords":                 ["knx", "vis", "GUI", "graphical", "scada"],
         "readme":                   "https://github.com/ioBroker/ioBroker.knx/blob/master/README.md",
-	"loglevel":                 "info",
+		"loglevel":                 "info",
         "type":                     "common adapters"
     },
     "native": {
